@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #192424;
+    height: 3.7rem;
+    color: white;
+    font-size: 0.8rem;
+}
+.border{
+    border: 2px solid transparent;
+    height: 3.5rem;
+}
+.border:hover{
+    border: 2px solid white;
+    cursor: pointer;
+} 
+
+.logo{
+    background-image: url(Photos/amazon_logo.png);
+    background-size: cover;
+    width: 7rem;
+}
+.location{
+    width: 6rem;
+}
+.locationline1{
+    margin-left: 1.1rem;
+    margin-top: .8rem;
+    color: #f9fafad2;
+}
+.locationline2{
+    display: flex;
+    font-weight: 700;
+    gap: 0.3rem;
+}
+.searchbar{
+    height: 2.6rem;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+.searchinput{
+    height: 2.4rem;
+    width: 100%;
+    border-radius: 0;
+    border: none;
+}
+.searchicon{
+    height: 2.4rem;
+    width: 2.8rem;
+    font-size: 1.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: rgba(254, 189, 104, 1);
+    color: black;
+    border-radius: 0 10% 10% 0;
+    
+}
+.searchicon:hover{
+    background-color: rgb(243, 158, 47);
+    cursor: pointer;
+    
+}
+.searchselect{
+    height: 2.4rem;
+    width: 3rem;
+    border: none;
+    border-radius: 10% 0 0 10%;
+    background-color: #f3f3f3;
+}
+.language{
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.language i{
+    font-size: 1.1rem;
+    margin-bottom: .9rem;
+    
+}
+.languageselect{
+    height: 2rem;
+    background-color: #192424;
+    color: white;
+    margin-bottom: 0.5rem;
+    border: none;
+    font-weight: 650;
+    font-size: 1rem;
+}
+.languageselect:hover{
+    cursor: pointer;
+}
+.accountline1{
+    margin-top: .8rem;
+    color: #f9fafad2;
+}
+.accountline2{
+    display: flex;
+    font-weight: 700;
+    gap: 0.3rem;
+}
+.orderline1{
+    margin-top: .8rem;
+    color: #f9fafad2;
+}
+.orderline2{
+    display: flex;
+    font-weight: 700;
+    gap: 0.3rem;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart i{
+    font-size: 1.8rem;
+}
+.carttext{
+    font-size: 01rem;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+
