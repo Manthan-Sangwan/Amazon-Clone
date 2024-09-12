@@ -256,15 +256,17 @@ footer{
     height: 20rem;
     display: flex;
     justify-content: space-evenly;
+    padding-top: 1.5rem;
 }
 ul {
     margin-top: 1rem;
 }
 ul a{
     display: block;
-    font-size: 1rem;
+    font-size: .9rem;
     margin-top: .5rem;
     color: #dddddd;
+    margin-top: .8rem;
 }
 ul a:hover{
     cursor: pointer;
