@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 /* navbar */
@@ -9,10 +10,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #192424;
+    background-color: #0f1111;
     height: 3.7rem;
     color: white;
-    font-size: 0.8rem;
+    font-size: .8rem;
 }
 .border{
     border: 2px solid transparent;
@@ -32,8 +33,8 @@
     width: 6rem;
 }
 .locationline1{
-    margin-left: 1.1rem;
-    margin-top: .8rem;
+    margin-left: .9rem;
+    margin-top: 1rem;
     color: #f9fafad2;
 }
 .locationline2{
@@ -42,20 +43,20 @@
     gap: 0.3rem;
 }
 .searchbar{
-    height: 2.6rem;
+    height: 2rem;
     width: 65%;
     display: flex;
     align-items: center;
     border: none;
 }
 .searchinput{
-    height: 2.4rem;
+    height: 2rem;
     width: 100%;
     border-radius: 0;
     border: none;
 }
 .searchicon{
-    height: 2.4rem;
+    height: 2rem;
     width: 2.8rem;
     font-size: 1.5rem;
     align-items: center;
@@ -73,7 +74,7 @@
     
 }
 .searchselect{
-    height: 2.4rem;
+    height: 2rem;
     width: 3rem;
     border: none;
     border-radius: 10% 0 0 10%;
@@ -103,7 +104,7 @@
     cursor: pointer;
 }
 .accountline1{
-    margin-top: .8rem;
+    margin-top: 1rem;
     color: #f9fafad2;
 }
 .accountline2{
@@ -112,7 +113,7 @@
     gap: 0.3rem;
 }
 .orderline1{
-    margin-top: .8rem;
+    margin-top: 1rem;
     color: #f9fafad2;
 }
 .orderline2{
@@ -126,12 +127,215 @@
     align-items: center;
 }
 .cart i{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
 .carttext{
-    font-size: 01rem;
+    font-size: 0.8rem;
     margin-top: 1rem;
     font-weight: 700;
 }
+/* navbar2 */
+.navbar2{
+    display: flex;
+    background-color: #222f3d;
+    color: #f3f3f3;
+    height: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.border2{
+    border: 2px solid transparent;
+    height: 1.6rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.border2:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+.optionall{
+    display: flex;
+    margin-left: 1rem;
+}
+.optionall p{
+    margin-left: .3rem;
+}
+.panelcenter{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: none;
+    width: 83%;
+    box-sizing: border-box;
+    
+}
+.panelcenter p{
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    gap: 30rem;
+    border: 2px solid transparent;
+    
+}
 
+.panelcenter p:hover{
+    border: 2px solid;
+    cursor: pointer;
+    
+}
+.shopgaming{
+    display: flex;
+    justify-content: right;
+    font-weight: 700;
+}
+/* Background image */
+.heroimage{
+    background-image: url(Photos/heroimage.jpg);
+    height: 20rem;
+    width: 100%;
+    background-size: cover;
+}
+/* Shop Section */
+.shopsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e0e6e4;
+}
+.box{
+    border: 2px solid black;
+    height: 20rem;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+}
+.boximage{
+    height: 16rem;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 
+}
+.boxcontent{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.evengap{
+    margin-top: 0rem;
+}
+
+/* Footer */
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footpanel{
+    background-color: #37475a;
+    color: rgb(240, 219, 182);
+    height: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+}
+.footpanel:hover{
+    cursor: pointer;
+    background-color: #37475aec;
+    
+}
+.footpanel2{
+    background-color: #222f3d;
+    color: white;
+    height: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul {
+    margin-top: 1rem;
+}
+ul a{
+    display: block;
+    font-size: 1rem;
+    margin-top: .5rem;
+    color: #dddddd;
+}
+ul a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+ul p{
+    font-weight: 700;
+}
+.footpanel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: .01rem solid #979696;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo1{
+    background-image: url(Photos/amazon_logo.png);
+    background-size: cover;
+    width: 5rem;
+    height: 3rem;
+}
+.lancurcon{
+    display: flex;
+    margin-left: 1rem;
+    color: #9e9b9b;
+}
+.lan{
+    display: flex;
+    margin-left: 1rem;
+    border: 1px solid #9b9898;
+    width: 5.5rem;
+    align-items: center;
+    font-size: .9rem;
+    height: 2rem;
+    justify-content: center;
+}
+.cur{
+    display: flex;
+    margin-left: 1rem;
+    border: 1px solid #a09e9e;
+    width: 6rem;
+    align-items: center;
+    font-size: .9rem;
+    justify-content: center;
+}
+.con{
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+    border: 1px solid #9e9b9b;
+    width: 7rem;
+    align-items: center;
+    font-size: .9rem;
+}
+.footpanel4{
+    background-color: #0f1111;
+    color: rgb(202, 198, 198);
+    height: 4.5rem;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.privacy{
+    font-size: .8rem;
+    padding-top: 1rem;
+}
+.affiliates{
+    padding-top: .5rem;
+    font-size: .8rem;
+}
